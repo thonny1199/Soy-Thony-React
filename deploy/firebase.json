@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "soy-thony",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
