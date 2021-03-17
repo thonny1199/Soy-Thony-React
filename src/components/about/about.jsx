@@ -31,7 +31,7 @@ const about = () => (
                 ANTHONY DANIEL MARÍN BOLÍVAR
               </h1>
               <p className="font16">
-                Hello! I am Anthony Marín, I am 20 years old, I am from Liberia, Guanacaste, Costa Rica.
+                Hello! I am Anthony Marín, I am 21 years old, I am from Liberia, Guanacaste, Costa Rica.
                 I'm a tech enthusiast, I love programming, I do well on both back-end and front-end.
               <br></br>
               <strong>Address: </strong>
@@ -84,7 +84,7 @@ const about = () => (
           <h1 className="weight800 font28">
             <Education
               img={UNA}
-              title="National University of Costa Rica (Studying)"
+              title="National University of Costa Rica (Graduated)"
               text="Engineering in information systems"
               fecha="2017-2020"
             />
