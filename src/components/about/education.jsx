@@ -9,7 +9,7 @@ class Education extends Component {
         <div className="card-body text-center">
           <div className="row">
             <div className="col-2">
-              <img src={this.props.img} className="img-fluid" alt="hero" />
+              <img loading="lazy" src={this.props.img} className="img-fluid" alt="hero" />
             </div>
             <div className="col-10">
               <h3 className="card-title text-center">{this.props.title}</h3>

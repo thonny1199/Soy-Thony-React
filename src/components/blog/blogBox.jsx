@@ -5,7 +5,7 @@ import "./blogBox.scss";
 const blog = (props) => (
     <div className="blog__box">
       <div className="blog__image">
-        <img src={props.article.image} alt="blog story" />
+        <img loading="lazy" src={props.article.image} alt="blog story" />
         <div className="blog__hover flex-center">
           <h4 className="font30 weight800">READ MORE</h4>
         </div>

@@ -18,7 +18,7 @@ const hero = () => (
             </h1>
             <p className="font12">
               Angular | Spring Boot | Unity | Laravel | Bootstrap | React |
-              ASP.NET | Nextjs | Gastbyjs
+              ASP.NET | Nextjs | Gastbyjs | Drupal 
               <br></br>
               C# | Typescript | JavaScript | C++ | Java | PHP | Phyton |
               HTML/CSS/SCSS | SQL | Firebase Services
@@ -28,7 +28,7 @@ const hero = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" />
+            <img loading="lazy" src={HeroImage} alt="hero" />
           </div>
         </Col>
       </Row>

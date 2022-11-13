@@ -22,14 +22,14 @@ const about = () => (
       <Row>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={About} alt="hero" />
+            <img loading="lazy" src={About} alt="hero" />
           </div>
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-info">
             <h1 className="weight800 font40">ANTHONY DANIEL MARÍN BOLÍVAR</h1>
             <p className="font16">
-              Hello! I am Anthony Marín, I am 22 years old, I am from Liberia,
+              Hello! I am Anthony Marín, I am 23 years old, I am from Liberia,
               Guanacaste, Costa Rica. I'm a tech enthusiast, I love programming,
               I do well on both back-end and front-end.
               <br></br>
@@ -45,11 +45,11 @@ const about = () => (
             <div className="text-center mt-5">
               <a
                 className="a"
-                href="https://www.linkedin.com/in/anthony-marin-69366218a/"
+                href="https://github.com/AnthonyDaniel"
               >
                 <i className="fab fa-github fa-3x m-2" aria-hidden="true"></i>
               </a>
-              <a className="a" href="https://github.com/AnthonyDaniel">
+              <a className="a" href="https://www.linkedin.com/in/thony1199/">
                 <i className="fab fa-linkedin fa-3x m-2" aria-hidden="true"></i>
               </a>
               <a
@@ -130,10 +130,21 @@ const about = () => (
           <Skills icon="fab fa-react fa-3x" text="React" domain="90%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-react fa-3x" text="React Native" domain="70%" />
+          <Skills icon="fab fa-node-js fa-3x" text="Node Js" domain="90%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-node-js fa-3x" text="Node Js" domain="90%" />
+          <Skills
+            icon="fas fa-power-off fa-3x"
+            text="Spring boot"
+            domain="90%"
+          />
+        </div>
+        <div className="col-6 col-sm-4 col-md-3">
+          <Skills
+            icon="fab fa-wordpress fa-3x"
+            text="Wordpress"
+            domain="90%"
+          />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
           <Skills icon="fab fa-laravel fa-3x" text="Laravel" domain="85%" />
@@ -146,14 +157,13 @@ const about = () => (
           />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills
-            icon="fas fa-power-off fa-3x"
-            text="Spring boot"
-            domain="90%"
-          />
+          <Skills icon="fab fa-react fa-3x" text="React Native" domain="70%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-language fa-3x" text="English" domain="60%" />
+          <Skills icon="fas fa-language fa-3x" text="English" domain="60%" />
+        </div>
+        <div className="col-6 col-sm-4 col-md-3">
+          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="50%" />
         </div>
       </div>
     </div>

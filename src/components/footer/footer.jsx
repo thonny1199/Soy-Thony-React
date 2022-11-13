@@ -18,7 +18,7 @@ const partnerBox = () => (
           <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
             <div className="footer-box back-to-top">
               <p>BACK TO TOP</p>
-              <img src={Arrow} alt="arrow" />
+              <img loading="lazy" src={Arrow} alt="arrow" />
             </div>
           </Link>
         </Col>

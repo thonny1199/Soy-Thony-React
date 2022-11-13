@@ -136,7 +136,7 @@ class Contact extends React.Component {
             </Col>
             <Col md={12} lg={6}>
               <div className="flex-center">
-                <img src={ContactBackground} alt="contact background" />
+                <img loading="lazy" src={ContactBackground} alt="contact background" />
               </div>
             </Col>
           </Row>

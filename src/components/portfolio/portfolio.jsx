@@ -17,6 +17,8 @@ import Preview9 from "../../assets/J9.png";
 import Preview10 from "../../assets/J10.png";
 import Preview11 from "../../assets/J11.png";
 import Preview12 from "../../assets/J12.png";
+import Preview13 from "../../assets/J13.png";
+import Preview14 from "../../assets/J14.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -111,6 +113,20 @@ class Portfolio extends React.Component {
           title: "ShowTime (React+Nodejs+AWS)",
           tag: "Web-Partial-Development",
           url: "/",
+        },
+        {
+          id: "13",
+          preview: Preview13,
+          title: "Schmidt Marine 2021 annual report (Wordpress)",
+          tag: "Web-Partial-Development",
+          url: "https://2021annualreport.schmidtocean.org/",
+        },
+        {
+          id: "14",
+          preview: Preview14,
+          title: "Migrate Adl site (Drupal 8 to Drupal 9)",
+          tag: "Back End-Partial-Development",
+          url: "https://www.adl.org/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING

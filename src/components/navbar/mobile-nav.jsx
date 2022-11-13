@@ -20,7 +20,7 @@ const mobileNav = (props) => (
         duration={500}
         onClick={props.closeMobileMenu}
       >
-        <img src={Logo} alt="logo" />
+        <img loading="lazy" src={Logo} alt="logo" />
       </Link>
     </div>
     <div className="mobile__navbar-menu">

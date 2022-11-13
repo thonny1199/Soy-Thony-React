@@ -11,11 +11,11 @@ const desktopNav = (props) => (
     <div className="wrapper flex-s-between">
       <div>
         <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
-          <img src={LogoImg} alt="logo" className="pointer logo" />
+          <img loading="lazy" src={LogoImg} alt="logo" className="pointer logo" />
         </Link>
       </div>
       <div className="mobile__menu" onClick={props.mobileMenuOpen}>
-        <img src={MobileMenuIcon} alt="menu" className="" />
+        <img loading="lazy" src={MobileMenuIcon} alt="menu" className="" />
       </div>
       <div className="desktop__menu">
         <ul className="flex-s-between">

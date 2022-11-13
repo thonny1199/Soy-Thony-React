@@ -4,7 +4,7 @@ import "./partnerBox.scss";
 
 const partnerBox = (props) => (
   <div className="partner__box flex-center">
-    <img src={props.partner} alt="partner" />
+    <img loading="lazy" src={props.partner} alt="partner" />
   </div>
 );
 

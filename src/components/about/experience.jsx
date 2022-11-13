@@ -10,7 +10,7 @@ class Experience extends Component {
             <div className="col-12 ">
               <div className="row justify-content-center">
                 <div className="col-5 text-center">
-                 <img src={this.props.img} className="img-fluid"  alt="hero" />
+                 <img loading="lazy" src={this.props.img} className="img-fluid"  alt="hero" />
                 </div>
               </div>
               <p className="text-left mt-1">{this.props.text}</p>
