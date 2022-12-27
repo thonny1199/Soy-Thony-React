@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-// SCSS
 import "./navbar.scss";
-// Assets
-import CloseIcons from '../../assets/navbar/mobile-close.svg';
 import Logo from "../../assets/SoyThony.png";
 
 const mobileNav = (props) => (

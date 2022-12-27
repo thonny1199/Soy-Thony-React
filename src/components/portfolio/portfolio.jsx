@@ -4,7 +4,7 @@ import Masonry from "react-masonry-css";
 //Scss
 import "./portfolio.scss";
 //Assets
-import Arrow from "../../assets/portfolio/arrow.svg";
+import Preview0 from "../../assets/J0.png";
 import Preview1 from "../../assets/J1.png";
 import Preview2 from "../../assets/J2.png";
 import Preview3 from "../../assets/J3.png";
@@ -19,6 +19,9 @@ import Preview11 from "../../assets/J11.png";
 import Preview12 from "../../assets/J12.png";
 import Preview13 from "../../assets/J13.png";
 import Preview14 from "../../assets/J14.png";
+import Preview15 from "../../assets/J15.png";
+import Preview16 from "../../assets/J16.png";
+import Preview17 from "../../assets/J17.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -30,6 +33,13 @@ class Portfolio extends React.Component {
     this.state = {
       // PORTFOLIO PROJECTS
       projects: [
+        {
+          id: "0",
+          preview: Preview0,
+          title: "DIGITAL PORTFOLIO (React)",
+          tag: "Web-full-Development",
+          url: "#",
+        },
         {
           id: "1",
           preview: Preview1,
@@ -127,6 +137,27 @@ class Portfolio extends React.Component {
           title: "Migrate Adl site (Drupal 8 to Drupal 9)",
           tag: "Back End-Partial-Development",
           url: "https://www.adl.org/",
+        },
+        {
+          id: "15",
+          preview: Preview15,
+          title: "NOCOE site (Drupal 9)",
+          tag: "Back End-Partial-Development",
+          url: "https://transportationops.org/",
+        },
+        {
+          id: "16",
+          preview: Preview16,
+          title: "Saipem site (Drupal 9)",
+          tag: "Back End-Partial-Development",
+          url: "https://www.saipem.com/",
+        },
+        {
+          id: "17",
+          preview: Preview17,
+          title: "New Jersey Court site (Drupal 9)",
+          tag: "Front End-Back End-Partial-Development",
+          url: "https://www.njcourts.gov/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING

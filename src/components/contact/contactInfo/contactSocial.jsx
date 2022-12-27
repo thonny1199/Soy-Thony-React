@@ -1,12 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-flexbox-grid";
 import "./contactSocial.scss";
-
-
-import FacebookIcon from "../../../assets/contact/facebook.svg";
-import TwitterIcons from "../../../assets/contact/twitter.svg";
-import DribbleIcon from "../../../assets/contact/dribble.svg";
-
 
 const contactSocial = () => (
   <div  className="text-center mt-5">
