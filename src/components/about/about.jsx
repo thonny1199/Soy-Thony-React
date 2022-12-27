@@ -34,26 +34,26 @@ const about = () => (
               I do well on both back-end and front-end.
               <br></br>
               <strong>Address: </strong>
-              Liberia, Guanacaste, Costa Rica: Diagonal to the OIJ of Liberia
+              Cañas, Guanacaste, Costa Rica
               <br></br>
               <strong>Phone: </strong>
               (+506) 8371-4550
               <br></br>
-              <strong>Email </strong>
+              <strong>Email: </strong>
               anthonymmarinbolivar@gmail.com
             </p>
             <div className="text-center mt-5">
               <a
-                className="a"
+                className="a" target="_blank"
                 href="https://github.com/AnthonyDaniel"
               >
                 <i className="fab fa-github fa-3x m-2" aria-hidden="true"></i>
               </a>
-              <a className="a" href="https://www.linkedin.com/in/thony1199/">
+              <a className="a" target="_blank" href="https://www.linkedin.com/in/thony1199/">
                 <i className="fab fa-linkedin fa-3x m-2" aria-hidden="true"></i>
               </a>
               <a
-                className="a"
+                className="a" target="_blank"
                 href="https://www.facebook.com/anthony.marin.5836711"
               >
                 <i
@@ -61,7 +61,7 @@ const about = () => (
                   aria-hidden="true"
                 ></i>
               </a>
-              <a className="a" href="https://www.instagram.com/thonny1199/">
+              <a className="a"target="_blank" href="https://www.instagram.com/thonny1199/">
                 <i
                   className="fab fa-instagram fa-3x m-2"
                   aria-hidden="true"
@@ -105,7 +105,7 @@ const about = () => (
             <Experience
               img={Tayassu}
               text="Thanks to the CEO of Tayassu, Oscar Loría, it has allowed me to do a 6-month internship in a Unity project, which consists of the recreation of a board game."
-              fecha="2019-19"
+              fecha="2019 - 6 month"
             />
           </h1>
         </div>
@@ -163,7 +163,7 @@ const about = () => (
           <Skills icon="fas fa-language fa-3x" text="English" domain="60%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="50%" />
+          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="60%" />
         </div>
       </div>
     </div>
