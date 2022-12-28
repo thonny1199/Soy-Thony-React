@@ -10,6 +10,7 @@ import Liceo from "../../assets/Liceo.png";
 import UNA from "../../assets/UNA.png";
 import Decimo from "../../assets/decimo.png";
 import Tayassu from "../../assets/tayassu.png";
+import CentroCultural from "../../assets/centrocultural.png";
 
 import Education from "./education";
 import Experience from "./experience";
@@ -92,6 +93,16 @@ const about = () => (
               title="National University of Costa Rica (Graduated)"
               text="Engineering in information systems"
               fecha="2017-2020"
+            />
+          </h1>
+        </div>
+        <div className="col-12 col-sm-6 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">
+            <Education
+              img={CentroCultural}
+              title="Centro Cultural Costarricense Norteamericano"
+              text="Conversational English"
+              fecha="2021-2022"
             />
           </h1>
         </div>
