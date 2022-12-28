@@ -19,7 +19,7 @@ import Skills from "./skills";
 const about = () => (
   <div id="about">
     <div className="wrapper">
-      <Title title="ABOUT US." />
+      <Title title="ABOUT ME." />
       <Row>
         <Col md={12} lg={6}>
           <div className="hero-image">
@@ -28,11 +28,9 @@ const about = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-info">
-            <h1 className="weight800 font40">ANTHONY DANIEL MARÍN BOLÍVAR</h1>
+            <h1 className="weight800 font40">ANTHONY MARÍN BOLÍVAR</h1>
             <p className="font16">
-              Hello! I am Anthony Marín, I am 23 years old, I am from Liberia,
-              Guanacaste, Costa Rica. I'm a tech enthusiast, I love programming,
-              I do well on both back-end and front-end.
+              I am a great technology enthusiast, I love reading about new technologies, new frameworks, new methodologies,..
               <br></br>
               <strong>Address: </strong>
               Cañas, Guanacaste, Costa Rica
