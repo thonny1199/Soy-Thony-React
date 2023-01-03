@@ -22,6 +22,7 @@ import Preview14 from "../../assets/J14.png";
 import Preview15 from "../../assets/J15.png";
 import Preview16 from "../../assets/J16.png";
 import Preview17 from "../../assets/J17.png";
+import Preview18 from "../../assets/J18.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -158,6 +159,13 @@ class Portfolio extends React.Component {
           title: "New Jersey Court site (Drupal 9)",
           tag: "Front End-Back End-Partial-Development",
           url: "https://www.njcourts.gov/",
+        },
+        {
+          id: "18",
+          preview: Preview18,
+          title: "Image Compression (Vanilla JS)",
+          tag: "Full-Development",
+          url: "https://comprimir-imagenes-rapido-by-thony.web.app/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
