@@ -30,7 +30,17 @@ const about = () => (
           <div className="hero-info">
             <h1 className="weight800 font40">ANTHONY MARÍN BOLÍVAR</h1>
             <p className="font16">
-              I am a great technology enthusiast, I love reading about new technologies, new frameworks, new methodologies,..
+              I am a systems engineer with a proven track record of delivering
+              successful projects for clients worldwide. I have experience with
+              a variety of frameworks, including React, Angular, Node.js,
+              Gatsby.js, Drupal, WordPress, and ASP.NET, as well as knowledge of
+              several other technologies. In addition to my technical skills, I
+              am proficient in English at the basic-intermediate level and am
+              able to communicate professionally in the language.
+              <br></br>I am always seeking to expand my knowledge and stay
+              up-to-date with the latest technologies. In my free time, I enjoy
+              exploring new ideas and concepts through simple Arduino projects.
+              Thank you for considering my application.
               <br></br>
               <strong>Address: </strong>
               Cañas, Guanacaste, Costa Rica
@@ -43,16 +53,22 @@ const about = () => (
             </p>
             <div className="text-center mt-5">
               <a
-                className="a" target="_blank"
+                className="a"
+                target="_blank"
                 href="https://github.com/AnthonyDaniel"
               >
                 <i className="fab fa-github fa-3x m-2" aria-hidden="true"></i>
               </a>
-              <a className="a" target="_blank" href="https://www.linkedin.com/in/thony1199/">
+              <a
+                className="a"
+                target="_blank"
+                href="https://www.linkedin.com/in/thony1199/"
+              >
                 <i className="fab fa-linkedin fa-3x m-2" aria-hidden="true"></i>
               </a>
               <a
-                className="a" target="_blank"
+                className="a"
+                target="_blank"
                 href="https://www.facebook.com/anthony.marin.5836711"
               >
                 <i
@@ -60,7 +76,11 @@ const about = () => (
                   aria-hidden="true"
                 ></i>
               </a>
-              <a className="a"target="_blank" href="https://www.instagram.com/thonny1199/">
+              <a
+                className="a"
+                target="_blank"
+                href="https://www.instagram.com/thonny1199/"
+              >
                 <i
                   className="fab fa-instagram fa-3x m-2"
                   aria-hidden="true"
@@ -149,11 +169,7 @@ const about = () => (
           />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills
-            icon="fab fa-wordpress fa-3x"
-            text="Wordpress"
-            domain="90%"
-          />
+          <Skills icon="fab fa-wordpress fa-3x" text="Wordpress" domain="90%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
           <Skills icon="fab fa-laravel fa-3x" text="Laravel" domain="85%" />
