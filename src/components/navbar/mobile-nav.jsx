@@ -71,7 +71,23 @@ const MobileNav = (props) => {
             </li>
           </ul>
         ) : (
-          ""
+          <ul>
+            <li className="flex-center">
+              <Link2
+                style={{ cursor: "pointer" }}
+                className="colorBlack"
+                activeClass="active-link"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={props.closeMobileMenu}
+              >
+                History
+              </Link2>
+            </li>
+          </ul>
         )}
       </div>
     </div>

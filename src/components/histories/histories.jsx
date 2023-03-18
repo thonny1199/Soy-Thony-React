@@ -104,7 +104,10 @@ const Histories = () => {
           </div>
         </div>
       </div>
-      <div className="" id="chapter1">
+      <div id="chapter1">
+        <br></br>        <br></br>
+      </div>
+      <div className="">
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1">
