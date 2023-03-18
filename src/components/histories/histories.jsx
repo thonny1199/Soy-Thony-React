@@ -56,7 +56,7 @@ const Histories = () => {
       <div className="hero2" id="hero">
         <div className="wrapper">
           <div className="hero-info2 mt-1">
-            <h1 className="weight800 font40 mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
               El amor que trasciende el tiempo
             </h1>
             <p className="font16">
@@ -110,7 +110,7 @@ const Histories = () => {
       <div className="">
         <div className="wrapper">
           <div className="hero-info mt-1">
-            <h1 className="weight800 font40 mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
               Capitulo 1: La Caída del Gran Rey de Babilonia
             </h1>
             <p className="font16">
