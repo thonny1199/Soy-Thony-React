@@ -5,7 +5,7 @@ import HeroImage from "../../assets/angel-demon.jpeg";
 import { FaBars } from "react-icons/fa";
 
 const Histories = () => {
-  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isMenuVisible, setIsMenuVisible] = useState(true);
 
   const toggleMenu = () => {
     setIsMenuVisible(!isMenuVisible);
