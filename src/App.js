@@ -10,6 +10,8 @@ import Portfolio from "./components/portfolio/portfolio";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import { BrowserRouter, Route, Routes, Outlet, useNavigate } from 'react-router-dom';
+import Histories from './components/histories/histories';
  
 class App extends React.Component {
   state = {
@@ -20,6 +22,7 @@ class App extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.userIsScrolled);
   }
+
   componentWillUnmount() {
     window.removeEventListener("scroll", this.userIsScrolled);
   }
@@ -58,6 +61,7 @@ class App extends React.Component {
     }
 
     return (
+      <BrowserRouter>
       <div className="App">
         {mobileNavbar}
         {backdrop}
@@ -65,14 +69,33 @@ class App extends React.Component {
           userIsScrolled={this.state.userIsScrolled}
           mobileMenuOpen={this.mobileMenuOpen}
         />
-        <Hero />
-        <Portfolio />
-        <About />
-        <Contact />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Portfolio />
+              <About />
+              <Contact />
+            </>
+          } />
+          <Route path="/history" element={<Histories />} />
+          <Route path="*" element={<RedirectToHome />} />
+        </Routes>
         <Footer />
       </div>
+    </BrowserRouter>
     );
   }
+}
+
+function RedirectToHome() {
+  const navigate = useNavigate();
+
+  React.useEffect(() => {
+    navigate('/');
+  }, [navigate]);
+
+  return null;
 }
 
 export default App;

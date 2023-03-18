@@ -20,6 +20,26 @@
   }
 }
 
+.hero2 {
+  padding-top: 120px;
+  width: 100%;
+  padding-bottom: 40px;
+  .hero-info2 {
+    padding-top: 60px;
+
+    p {
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+  }
+
+  .hero-image2 {
+    max-width: 570px;
+    height: auto;
+    float: right;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .hero {
     padding-top: 140px;
@@ -42,4 +62,149 @@
       text-align: center;
     }
   }
+}
+
+.float-menu {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 999;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.float-menu.visible {
+  display: block;
+}
+
+.float-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.float-menu ul li {
+  margin-bottom: 10px;
+}
+
+.float-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.float-menu ul li a:hover {
+  color: #777;
+}
+
+@media screen and (max-width: 768px) {
+  .float-menu ul {
+    flex-direction: column;
+  }
+
+  .float-menu ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-menu {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-menu span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 2px;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-menu.active span:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-4px, 4px);
+  }
+  
+  .toggle-menu.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  
+  .toggle-menu.active span:nth-of-type(3) {
+    transform: rotate(45deg) translate(-4px, -4px);
+  }
+  
+  .float-menu.active {
+    display: block;
+  }
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 5rem;
+  height: 5rem;
+  background-color: #F9A825;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  line-height: 5rem;
+  text-align: center;
+}
+
+.menu-button {
+  background-color: #F9A825;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-button:hover {
+  background-color: #FFC107;
+}
+
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.menu-close:hover {
+  color: #3f51b5;
 }
