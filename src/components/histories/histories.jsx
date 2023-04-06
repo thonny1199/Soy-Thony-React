@@ -1,12 +1,53 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "../hero/hero.scss?t=30";
 import HeroImage from "../../assets/angel-demon.jpeg";
 import Castillo from "../../assets/castillo-babilonea.jpeg";
+import Enigma from "../../assets/enigmademoniaco.png";
 import { FaBars } from "react-icons/fa";
+import Swal from 'sweetalert2';
+import { useHistory } from 'react-router-dom';
+
+const checkAge = () => {
+  const history = useHistory();
+  const isOver18 = localStorage.getItem("isOver18");
+
+  if (isOver18 === null) {
+    Swal.fire({
+      title: "Advertencia",
+      text: "El contenido de esta página puede ser sexual, violento, etc. ¿Eres mayor de 18 años?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Sí, soy mayor de 18 años",
+      cancelButtonText: "No, no soy mayor de 18 años",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        localStorage.setItem("isOver18", "true");
+      } else {
+        localStorage.setItem("isOver18", "false");
+        history.push("/home");
+      }
+    });
+  } else if (isOver18 === "false") {
+    Swal.fire({
+      title: "Lo sentimos",
+      text: "No puedes ver este contenido.",
+      icon: "error",
+      confirmButtonText: "Entendido",
+    });
+    localStorage.setItem("isOver18", null);
+  }
+};
+
 
 const Histories = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(true);
+
+  useEffect(() => {
+    checkAge();
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuVisible(!isMenuVisible);
@@ -42,20 +83,6 @@ const Histories = () => {
               onClick={toggleMenu}
             >
               Capítulo 1
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="colorBlack"
-              activeClass="active-link"
-              to="chapter2"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Capítulo 2
             </Link>
           </li>
           <li>
@@ -513,7 +540,18 @@ const Histories = () => {
               Capítulo 2: La elección de Andras
             </h1>
             <p className="font16">
-              Andras se encontraba solo en el castillo en ruinas, la desolación
+            <img
+                style={{
+                  width: "50%",
+                  float: "left",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
+                  marginRight: "1rem",
+                }}
+                loading="lazy"
+                src={Enigma}
+                alt="enigma"
+              />Andras se encontraba solo en el castillo en ruinas, la desolación
               y la destrucción rodeándolo como un sombrío recordatorio de sus
               acciones. La culpa lo invadía, y se daba cuenta de que debía
               encontrar una manera de reparar lo que había hecho. Sin embargo,

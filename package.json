@@ -19,6 +19,7 @@
     "react-scroll": "^1.7.16",
     "react-translate": "^7.0.1",
     "sass": "^1.44.0",
+    "sweetalert2": "^11.7.3",
     "swiper": "^5.4.0"
   },
   "scripts": {
