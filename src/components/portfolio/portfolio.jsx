@@ -23,6 +23,7 @@ import Preview15 from "../../assets/J15.png";
 import Preview16 from "../../assets/J16.png";
 import Preview17 from "../../assets/J17.png";
 import Preview18 from "../../assets/J18.png";
+import Preview19 from "../../assets/J19.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -166,6 +167,13 @@ class Portfolio extends React.Component {
           title: "Image Compression (Vanilla JS)",
           tag: "Full-Development",
           url: "https://comprimir-imagenes-rapido-by-thony.web.app/",
+        },
+        {
+          id: "19",
+          preview: Preview19,
+          title: "System for clinical laboratory, made in (Laravel 9)",
+          tag: "Full-Development",
+          url: "/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
