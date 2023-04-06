@@ -288,7 +288,7 @@ const Histories = () => {
               <br></br>
               Sin embargo, hay algo que me aferra a la vida. Un collar que
               perteneció a mi madre, una estrella brillante de oro y plata que
-              cuelga de mi cuello. Nunca conocí a mi madre, solo sé que alguien
+              cuelgó de mi cuello. Nunca conocí a mi madre, solo sé que alguien
               la mató y le robó el collar. Pero tengo la sensación de que hay
               algo más en él, algo que podría cambiar mi vida y la de mi pueblo
               para siempre. ¿Podría ser este el momento de hacer algo al
@@ -526,7 +526,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 3: En la búsqueda de la verdad
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -540,7 +539,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 4: El secreto del collar sagrado
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -554,7 +552,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 5: El plan de los demonios
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -568,7 +565,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 6: La traición de un amigo
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -582,7 +578,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 8: La venganza de los dioses
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -596,7 +591,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 9: Un nuevo comienzo
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -610,7 +604,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 9: Un nuevo comienzo
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
@@ -624,7 +617,6 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 10: La unión de los mundos
             </h1>
-            <p className="font16">Proximamente......</p>
           </div>
         </div>
       </div>
