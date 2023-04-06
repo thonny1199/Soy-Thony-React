@@ -185,34 +185,6 @@ const Histories = () => {
               Capítulo 8
             </Link>
           </li>
-          <li>
-            <Link
-              className="colorBlack"
-              activeClass="active-link"
-              to="chapter9"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Capítulo 9
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="colorBlack"
-              activeClass="active-link"
-              to="chapter10"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Capítulo 10
-            </Link>
-          </li>
         </ul>
         <button className="menu-button" onClick={toggleMenu}>
           Cerrar menú
@@ -758,7 +730,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 3: En la búsqueda de la verdad
+              Capítulo 3: El secreto del collar sagrado
             </h1>
             <p className="font16">
               .....Proximamente (Fecha aproximada 22 de abril 2023)
@@ -774,7 +746,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 4: El secreto del collar sagrado
+              Capítulo 4: El plan de los demonios
             </h1>
           </div>
         </div>
@@ -787,7 +759,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 5: El plan de los demonios
+              Capítulo 5: La traición de un amigo
             </h1>
           </div>
         </div>
@@ -800,7 +772,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 6: La traición de un amigo
+              Capítulo 6: La venganza de los dioses
             </h1>
           </div>
         </div>
@@ -813,7 +785,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 8: La venganza de los dioses
+              Capítulo 7: Un nuevo comienzo
             </h1>
           </div>
         </div>
@@ -826,33 +798,7 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 9: Un nuevo comienzo
-            </h1>
-          </div>
-        </div>
-      </div>
-
-      <div id="chapter9">
-        <br></br> <br></br>
-      </div>
-      <div className="">
-        <div className="wrapper">
-          <div className="hero-info mt-1">
-            <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 9: Un nuevo comienzo
-            </h1>
-          </div>
-        </div>
-      </div>
-
-      <div id="chapter10">
-        <br></br> <br></br>
-      </div>
-      <div className="">
-        <div className="wrapper">
-          <div className="hero-info mt-1">
-            <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 10: La unión de los mundos
+              Capítulo 8: La unión de los mundos
             </h1>
           </div>
         </div>
