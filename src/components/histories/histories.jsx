@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import "../hero/hero.scss?t=21";
+import "../hero/hero.scss?t=30";
 import HeroImage from "../../assets/angel-demon.jpeg";
 import Castillo from "../../assets/castillo-babilonea.jpeg";
 import { FaBars } from "react-icons/fa";
@@ -512,7 +512,200 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 2: La elección de Andras
             </h1>
-            <p className="font16">Proximamente......</p>
+            <p className="font16">
+              Andras se encontraba solo en el castillo en ruinas, la desolación
+              y la destrucción rodeándolo como un sombrío recordatorio de sus
+              acciones. La culpa lo invadía, y se daba cuenta de que debía
+              encontrar una manera de reparar lo que había hecho. Sin embargo,
+              el collar sagrado había desaparecido, y con él la esperanza de
+              restaurar el equilibrio en el mundo.
+              <br></br>
+              Mientras vagaba por el castillo destruido, Andras se encontró con
+              una enigmática figura demoníaca, que había estado oculta en las
+              sombras del castillo del Rey Bael. La figura le contó que había
+              visto a Kira teletransportarse a la isla cercana, llevándose el
+              collar sagrado consigo. Además, le reveló que existía un antiguo
+              ritual que podría detener la Gran Guerra y restablecer la armonía
+              en el mundo.
+              <br></br>
+              Para llevar a cabo el ritual, Andras debía tomar una decisión
+              crucial. La figura demoníaca le sugirió que debía abandonar su
+              naturaleza demoníaca. Andras siempre había sido alguien bueno y
+              estaba convencido de que su verdadera naturaleza no era
+              completamente maligna. En el fondo de su corazón, había una chispa
+              de bondad y un deseo de redención.
+              <br></br>
+              Engañado por la figura demoníaca, Andras accedió a realizar el
+              ritual, creyendo que podría ayudar a estar en armonía consigo
+              mismo y con el universo. Sin embargo, el ritual no suprimió su
+              parte demoníaca, sino que liberó al demonio interior,
+              fortaleciendo su poder y su vínculo con el lado oscuro. Al
+              completar el ritual, la figura demoníaca desapareció con una risa
+              siniestra, dejando a Andras a merced de sus oscuros impulsos.
+              <br></br>
+              Mientras tanto, Kira, en su isla refugio, también experimentaba un
+              cambio. Había sentido el sufrimiento de Andras y su deseo de
+              redención, y aunque al principio estaba resentida por sus
+              acciones, comenzó a comprender que él también era una víctima de
+              las circunstancias. Con la esperanza de que juntos podrían
+              encontrar una solución, Kira se preparó para el inevitable
+              encuentro con Andras, mientras la sombra de la Gran Guerra se
+              cernía sobre el horizonte.
+              <br></br>
+              Atraído por el poder del collar sagrado y consumido por su oscuro
+              deseo, Andras siguió a Kira hasta la isla. Cuando la encontró, su
+              ira y confusión lo impulsaron a atacarla. Sin embargo, Kira pudo
+              ver en su corazón que no todo en Andras era maldad. A pesar de su
+              intento de asesinarla, ella pudo sentir la bondad que aún residía
+              en su alma.
+              <br></br>
+              Con determinación y compasión, Kira decidió enfrentarse a Andras y
+              mostrarle que aún había esperanza. La batalla entre ellos comenzó
+              en una cueva iluminada por la luz de las estrellas que se filtraba
+              a través de las grietas en el techo. Kira, con su velocidad y
+              agilidad sobrenaturales, esquivaba cada uno de los poderosos
+              golpes de Andras, que se movía como un torbellino de furia y
+              destrucción.
+              <br></br>
+              Las chispas volaban mientras sus armas chocaban una y otra vez,
+              cada impacto resonando a través de la cueva. A medida que la pelea
+              se intensificaba, ambos oponentes desataban habilidades cada vez
+              más espectaculares y devastadoras. La cueva se llenaba de energía
+              y los elementos se desataban, con llamas y rayos que se
+              arremolinaban en un frenesí descontrolado.
+              <br></br>
+              Finalmente, Kira reunió toda su fuerza y, con un grito lleno de
+              determinación, desencadenó un ataque de energía divina que
+              atravesó las defensas de Andras y lo lanzó contra la pared de la
+              cueva. El impacto lo dejó inconsciente, y su aspecto demoníaco
+              comenzó a retroceder lentamente.
+              <br></br>
+              Pasaron tres días antes de que Andras despertara. Cuando lo hizo,
+              se encontró semidesnudo, amarrado de manos y pies. Confundido y
+              desorientado, notó a Kira a su lado, quien le explicó que había
+              lavado su ropa y lo había atado con enredaderas y hojas de la
+              isla, para evitar que intentara escapar o atentar contra ella en
+              la noche.
+              <br></br>
+              Kira le sonrió con picardía y admitió que sí, lo había visto
+              desnudo. No solo eso, sino que también había tenido que desnudarlo
+              ella misma para lavar su ropa. La tensión entre ellos se volvió
+              palpable, y Kira comenzó a recordar el momento en que lo había
+              desvestido. Al principio, había sido tímida e inocente, pero a
+              medida que avanzaba, su curiosidad la había llevado a explorar más
+              de lo necesario.
+              <br></br>
+              Cuando Kira retiró la ropa de Andras, no pudo evitar que sus ojos
+              recorrieran cada detalle de su cuerpo. Al principio, se sintió
+              apenada por su falta de autocontrol, pero su interés se convirtió
+              en algo más juguetón y travieso. En un momento dado, su mano había
+              rozado "accidentalmente" una parte más íntima de Andras, lo que
+              provocó una reacción sorprendente. Kira se ruborizó al recordarlo,
+              pero al mismo tiempo, una sonrisa maliciosa se dibujó en su
+              rostro.
+              <br></br>
+              Andras, al ver la expresión de Kira, no pudo evitar sentirse
+              incómodo, pero también un poco intrigado. La tensión entre ellos
+              se volvió palpable, pero Kira rápidamente cambió de tema, dejando
+              a Andras con la mente llena de preguntas y pensamientos
+              inquietantes.
+              <br></br>
+              Le explicó a Andras que necesitaba acceder a su pecho para sellar
+              temporalmente su poder demoníaco, y que había utilizado sus
+              habilidades para leer sus pensamientos mientras estaba
+              inconsciente. Había descubierto que Andras había sido malo debido
+              a las circunstancias y que, en el fondo, había bondad en él.
+              <br></br>
+              Kira completó el ritual para sellar el poder demoníaco de Andras,
+              y una vez que terminó, le devolvió su ropa y lo ayudó a ponerse de
+              pie. Ambos se quedaron en silencio, sabiendo que el futuro era
+              incierto y que el destino del mundo aún estaba en juego. Mientras
+              se miraban, una electricidad casi palpable llenaba el aire, y sus
+              cuerpos estaban lo suficientemente cerca como para sentir el calor
+              del otro.
+              <br></br>
+              Después de un tiempo, Andras comenzó a hablar sobre lo que había
+              pasado. Le contó a Kira cómo el Rey Bael había oprimido a su
+              pueblo y cómo había planeado matarlo para liberar a su pueblo.
+              Kira escuchó atentamente, sintiendo una mezcla de compasión y
+              enojo por lo que había sucedido.
+              <br></br>A medida que compartían sus experiencias, un lazo de
+              amistad comenzó a formarse entre ellos. Juntos, comenzaron a
+              planear cómo enfrentarse al desequilibrio de poder que existía
+              ahora en el mundo. Fue entonces cuando Kira le reveló a Andras el
+              verdadero propósito del collar sagrado.
+              <br></br>
+              El collar tenía la capacidad de, con un ritual específico y en un
+              lugar sagrado, abrir las puertas tanto del infierno como del mundo
+              celestial. Kira explicó que, aunque los demonios, humanos y dioses
+              vivían en el mismo mundo, estaban separados entre sí. Los dioses
+              de élite eran los únicos que podían acceder al mundo terrenal,
+              mientras que solo un demonio de ultra élite podía hacerlo, y aún
+              así no podían permanecer mucho tiempo en el mundo terrenal debido
+              a que sus energías incompatibles causaban un desgaste en sus
+              cuerpos y almas.
+              <br></br>
+              Kira confesó que ya se encontraba débil por no haber vuelto al
+              mundo divino, ya que actualmente estaba cerrado debido al gran
+              temor de la guerra. A pesar de ser seres poderosos, la mayoría de
+              los seres celestiales eran neutrales y nunca habían peleado, lo
+              que los hacía carecer rápidamente de habilidades en combate.
+              <br></br>
+              Andras, intrigado, le preguntó a Kira por qué él no se sentía
+              débil, ya que también tenía una parte demoníaca en su ser. Kira
+              especuló que Andras probablemente era un ultra elite del mundo
+              demoniaco y que también tenía un lado celestial humano. Supuso que
+              la madre de Andras debió haber sido el producto del amor prohibido
+              entre una deidad y un ser humano, lo que le otorgaba una energía
+              única y un poder inusual. Aunque Kira no podía estar segura de
+              estos detalles, su inteligencia y experiencia le permitían hacer
+              suposiciones razonables al percibir el poder y la energía de
+              Andras.
+              <br></br>A medida que compartían sus experiencias y conocimientos,
+              Andras y Kira comenzaron a entenderse mejor y a valorar la
+              importancia de su unión en la lucha por proteger el equilibrio del
+              mundo y evitar que el collar cayera en las manos equivocadas.
+              <br></br>
+              Con el collar raptado, sería posible abrir las puertas entre los
+              reinos, lo que permitiría a los demonios atacar a los dioses o
+              incluso destruir el mundo. Comprendiendo la magnitud de lo que
+              estaba en juego, Andras y Kira se comprometieron a trabajar juntos
+              para proteger el equilibrio del mundo y evitar que el collar
+              cayera en las manos equivocadas.
+              <br></br>
+              Mientras Andras y Kira continuaban compartiendo sus experiencias,
+              Kira comenzó a sentirse cada vez más débil debido a la falta de
+              energía celestial. Sabía que necesitaba encontrar una manera de
+              sobrevivir en el mundo terrenal, y juntos decidieron embarcarse en
+              una búsqueda de la verdad, una búsqueda para evitar el conflicto
+              entre razas y encontrar un sustituto a la luz divina, un néctar
+              sagrado que los dioses consumen en el mundo celestial para reponer
+              su energía.
+              <br></br>
+              En un momento, Kira intentó levantarse, pero su debilidad la hizo
+              tambalearse y caer encima de Andras. Sus rostros quedaron
+              peligrosamente cerca, a punto de besarse. Sin embargo, Kira
+              rápidamente se movió y, con una sonrisa nerviosa, le explicó a
+              Andras que necesitaba encontrar algo similar a la luz divina para
+              recuperarse.
+              <br></br>
+              Justo antes de partir en su búsqueda, mientras exploraban la isla
+              en busca de pistas, encontraron un antiguo pergamino parcialmente
+              enterrado en la arena. Kira, sorprendida, reconoció la escritura
+              como un lenguaje divino que solo ella podía interpretar. Al leer
+              el pergamino, descubrió que contenía la historia de un amor
+              prohibido entre un dios y una humana, quienes resultaron ser los
+              antepasados de la madre de Andras.
+              <br></br>
+              Este descubrimiento inesperado los dejó atónitos y les hizo
+              comprender que su búsqueda de la verdad estaba más entrelazada con
+              sus propias vidas de lo que habían imaginado. Con esta nueva
+              información en mano, Andras y Kira se embarcaron en busca de la
+              verdad, decididos a descubrir los secretos de su pasado y
+              encontrar una solución para la debilidad de Kira en el mundo
+              terrenal. El destino de ambos y del mundo entero estaba en juego,
+              y solo juntos podrían encontrar una solución.
+            </p>
           </div>
         </div>
       </div>
@@ -526,6 +719,7 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 3: En la búsqueda de la verdad
             </h1>
+            <p className="font16">.....Proximamente (Fecha aproximada 22 de abril 2023)</p>
           </div>
         </div>
       </div>
