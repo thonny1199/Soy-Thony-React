@@ -67,6 +67,18 @@ const DesktopNav = (props) => {
                   ABOUT
                 </Link2>
               </li>
+              <li>
+                <Link2
+                  activeClass="active-link"
+                  to="history"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  CARTOON
+                </Link2>
+              </li>
             </ul>
           </div>
         ) : (
@@ -84,7 +96,7 @@ const DesktopNav = (props) => {
                   duration={500}
                   onClick={props.closeMobileMenu}
                 >
-                  History
+                  CARTOON
                 </Link2>
               </li>
             </ul>

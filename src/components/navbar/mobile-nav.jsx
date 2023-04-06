@@ -69,6 +69,20 @@ const MobileNav = (props) => {
                 ABOUT
               </Link2>
             </li>
+            <li className="flex-center">
+              <Link2
+                className="colorBlack"
+                activeClass="active-link"
+                to="history"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={props.closeMobileMenu}
+              >
+                CARTOON
+              </Link2>
+            </li>
           </ul>
         ) : (
           <ul>
@@ -84,7 +98,7 @@ const MobileNav = (props) => {
                 duration={500}
                 onClick={props.closeMobileMenu}
               >
-                History
+                CARTOON
               </Link2>
             </li>
           </ul>
