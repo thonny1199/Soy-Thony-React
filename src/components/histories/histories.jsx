@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import ('../hero/hero.css?' + (new Date()).getTime());
+import "../hero/hero.scss?t=2";
 import HeroImage from "../../assets/angel-demon.jpeg";
 import Castillo from "../../assets/castillo-babilonea.jpeg";
 import { FaBars } from "react-icons/fa";
