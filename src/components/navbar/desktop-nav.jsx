@@ -68,16 +68,15 @@ const DesktopNav = (props) => {
                 </Link2>
               </li>
               <li>
-                <Link2
-                  activeClass="active-link"
-                  to="history"
+                <Link
+                  to="/history"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                 >
                   CARTOON
-                </Link2>
+                </Link>
               </li>
             </ul>
           </div>

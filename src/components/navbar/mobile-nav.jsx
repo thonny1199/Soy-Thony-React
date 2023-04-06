@@ -70,18 +70,15 @@ const MobileNav = (props) => {
               </Link2>
             </li>
             <li className="flex-center">
-              <Link2
-                className="colorBlack"
-                activeClass="active-link"
-                to="history"
+              <Link
+                to="/history"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
-                onClick={props.closeMobileMenu}
               >
                 CARTOON
-              </Link2>
+              </Link>
             </li>
           </ul>
         ) : (
