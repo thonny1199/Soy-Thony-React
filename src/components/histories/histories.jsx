@@ -58,6 +58,132 @@ const Histories = () => {
               Capítulo 2
             </Link>
           </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 2
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 3
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter4"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 4
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter5"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 5
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter6"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 6
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter7"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 7
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter8"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 8
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter9"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 9
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="colorBlack"
+              activeClass="active-link"
+              to="chapter10"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleMenu}
+            >
+              Capítulo 10
+            </Link>
+          </li>
         </ul>
         <button className="menu-button" onClick={toggleMenu}>
           Cerrar menú
@@ -376,6 +502,7 @@ const Histories = () => {
           </div>
         </div>
       </div>
+
       <div id="chapter2">
         <br></br> <br></br>
       </div>
@@ -383,7 +510,119 @@ const Histories = () => {
         <div className="wrapper">
           <div className="hero-info mt-1">
             <h1 className="weight800 font40 mt-1 text-center big__title">
-              Capítulo 2: En busca del equilibrio
+              Capítulo 2: La elección de Andras
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter3">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 3: En la búsqueda de la verdad
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter4">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 4: El secreto del collar sagrado
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter5">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 5: El plan de los demonios
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter6">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 6: La traición de un amigo
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter7">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 8: La venganza de los dioses
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter8">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 9: Un nuevo comienzo
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter9">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 9: Un nuevo comienzo
+            </h1>
+            <p className="font16">Proximamente......</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="chapter10">
+        <br></br> <br></br>
+      </div>
+      <div className="">
+        <div className="wrapper">
+          <div className="hero-info mt-1">
+            <h1 className="weight800 font40 mt-1 text-center big__title">
+              Capítulo 10: La unión de los mundos
             </h1>
             <p className="font16">Proximamente......</p>
           </div>
