@@ -5,11 +5,10 @@ import HeroImage from "../../assets/angel-demon.jpeg";
 import Castillo from "../../assets/castillo-babilonea.jpeg";
 import Enigma from "../../assets/enigmademoniaco.png";
 import { FaBars } from "react-icons/fa";
-import Swal from 'sweetalert2';
-import { useHistory } from 'react-router-dom';
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
-const checkAge = () => {
-  const history = useHistory();
+const checkAge = (navigate) => {
   const isOver18 = localStorage.getItem("isOver18");
 
   if (isOver18 === null) {
@@ -27,7 +26,7 @@ const checkAge = () => {
         localStorage.setItem("isOver18", "true");
       } else {
         localStorage.setItem("isOver18", "false");
-        history.push("/home");
+        navigate("/home");
       }
     });
   } else if (isOver18 === "false") {
@@ -38,15 +37,18 @@ const checkAge = () => {
       confirmButtonText: "Entendido",
     });
     localStorage.setItem("isOver18", null);
+    setTimeout(() => {
+      navigate("/home");
+    }, 500);
   }
 };
 
-
 const Histories = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    checkAge();
+    checkAge(navigate);
   }, []);
 
   const toggleMenu = () => {
@@ -540,7 +542,7 @@ const Histories = () => {
               Capítulo 2: La elección de Andras
             </h1>
             <p className="font16">
-            <img
+              <img
                 style={{
                   width: "50%",
                   float: "left",
@@ -551,7 +553,8 @@ const Histories = () => {
                 loading="lazy"
                 src={Enigma}
                 alt="enigma"
-              />Andras se encontraba solo en el castillo en ruinas, la desolación
+              />
+              Andras se encontraba solo en el castillo en ruinas, la desolación
               y la destrucción rodeándolo como un sombrío recordatorio de sus
               acciones. La culpa lo invadía, y se daba cuenta de que debía
               encontrar una manera de reparar lo que había hecho. Sin embargo,
@@ -757,7 +760,9 @@ const Histories = () => {
             <h1 className="weight800 font40 mt-1 text-center big__title">
               Capítulo 3: En la búsqueda de la verdad
             </h1>
-            <p className="font16">.....Proximamente (Fecha aproximada 22 de abril 2023)</p>
+            <p className="font16">
+              .....Proximamente (Fecha aproximada 22 de abril 2023)
+            </p>
           </div>
         </div>
       </div>
