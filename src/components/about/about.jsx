@@ -185,10 +185,10 @@ const about = () => (
           <Skills icon="fab fa-react fa-3x" text="React Native" domain="70%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fas fa-language fa-3x" text="English" domain="60%" />
+          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="60%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="60%" />
+          <Skills icon="fas fa-language fa-3x" text="English" domain="50%" />
         </div>
       </div>
     </div>

@@ -69,17 +69,6 @@ const MobileNav = (props) => {
                 ABOUT
               </Link2>
             </li>
-            <li className="flex-center">
-              <Link
-                to="/history"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                CARTOON
-              </Link>
-            </li>
           </ul>
         ) : (
           <ul>

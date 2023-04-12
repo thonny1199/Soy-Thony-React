@@ -17,8 +17,8 @@ const hero = () => (
               (MID) FULL STACK DEVELOPER WEB
             </h1>
             <p className="font12">
-              Angular | Spring Boot | Unity | Laravel | Bootstrap | React |
-              ASP.NET | Nextjs | Gastbyjs | Drupal 
+              Angular | Spring Boot | Laravel | React | React Native |
+              ASP.NET | Nextjs | Gastbyjs | Django | Drupal 
               <br></br>
               C# | Typescript | JavaScript | C++ | Java | PHP | Phyton |
               HTML/CSS/SCSS | SQL | Firebase Services
