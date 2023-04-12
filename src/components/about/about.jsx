@@ -34,13 +34,11 @@ const about = () => (
               successful projects for clients worldwide. I have experience with
               a variety of frameworks, including React, Angular, Node.js,
               Gatsby.js, Drupal, WordPress, and ASP.NET, as well as knowledge of
-              several other technologies. In addition to my technical skills, I
-              am proficient in English at the basic-intermediate level and am
-              able to communicate professionally in the language.
+              several other technologies. I
+              am proficient in English at the basic-intermediate level.
               <br></br>I am always seeking to expand my knowledge and stay
               up-to-date with the latest technologies. In my free time, I enjoy
               exploring new ideas and concepts through simple Arduino projects.
-              Thank you for considering my application.
               <br></br>
               <strong>Address: </strong>
               Cañas, Guanacaste, Costa Rica
