@@ -67,7 +67,7 @@ const about = () => (
               <a
                 className="a"
                 target="_blank"
-                href="https://www.facebook.com/anthony.marin.5836711"
+                href="https://www.facebook.com/thony1199/"
               >
                 <i
                   className="fab fa-facebook-f fa-3x m-2"
@@ -146,6 +146,47 @@ const about = () => (
           </h1>
         </div>
       </div>
+      <div className="row mt-4" hidden>
+        <div className="col-12 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">POSITIONS AT DECIMO TECHNOLOGY</h1>
+        </div>
+        <div className="col-12 col-sm-6 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">
+            <Experience
+              img={Decimo}
+              text="Drupal Developer"
+              fecha="2022 - 2023"
+            />
+          </h1>
+        </div>
+        <div className="col-12 col-sm-6 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">
+            <Experience
+              img={Decimo}
+              text="Full Stack Developer Web"
+              fecha="2021 - 2022 · 12 month"
+            />
+          </h1>
+        </div>
+        <div className="col-12 col-sm-6 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">
+            <Experience
+              img={Decimo}
+              text="Angular Developer and ASP.net Developer"
+              fecha="2020 - 2021 · 12 month"
+            />
+          </h1>
+        </div>
+        <div className="col-12 col-sm-6 text-center mt-4 mb-4">
+          <h1 className="weight800 font28">
+            <Experience
+              img={Decimo}
+              text="Unity Developer (Intern)"
+              fecha="2019 - 2020 · 5 month"
+            />
+          </h1>
+        </div>
+      </div>
       <div className="row mt-4">
         <div className="col-12 text-center mt-4 mb-4">
           <h1 className="weight800 font28">CORE SKILLS</h1>
@@ -180,10 +221,10 @@ const about = () => (
           />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-react fa-3x" text="React Native" domain="70%" />
+          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="80%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
-          <Skills icon="fab fa-drupal fa-3x" text="Drupal" domain="60%" />
+          <Skills icon="fab fa-react fa-3x" text="React Native" domain="70%" />
         </div>
         <div className="col-6 col-sm-4 col-md-3">
           <Skills icon="fas fa-language fa-3x" text="English" domain="50%" />

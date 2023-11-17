@@ -24,6 +24,8 @@ import Preview16 from "../../assets/J16.png";
 import Preview17 from "../../assets/J17.png";
 import Preview18 from "../../assets/J18.png";
 import Preview19 from "../../assets/J19.png";
+import Preview20 from "../../assets/J20.png";
+import Preview21 from "../../assets/J21.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -157,7 +159,7 @@ class Portfolio extends React.Component {
         {
           id: "17",
           preview: Preview17,
-          title: "New Jersey Court site (Drupal 9)",
+          title: "New Jersey Court site (Drupal 9 - Drupal 10)",
           tag: "Front End-Back End-Partial-Development",
           url: "https://www.njcourts.gov/",
         },
@@ -174,6 +176,20 @@ class Portfolio extends React.Component {
           title: "System for clinical laboratory, made in (Laravel 9)",
           tag: "Full-Development",
           url: "/",
+        },
+        {
+          id: "20",
+          preview: Preview20,
+          title: "Office of Justice Programs (Drupal 10)",
+          tag: "Front End - Back End-Partial-Development",
+          url: "https://www.ojp.gov/",
+        },
+        {
+          id: "21",
+          preview: Preview21,
+          title: "The Legacy Project (Drupal 10)",
+          tag: "Front End - Back End-Partial-Development",
+          url: "https://legacyprojectchicago.org/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING

@@ -11,7 +11,7 @@ const contactSocial = () => (
       <i  className="fab fa-linkedin fa-2x m-2" aria-hidden="true">
       </i>
     </a>
-    <a  className="a mx-2 " href="https://www.facebook.com/anthony.marin.5836711" target={'_blank'}>
+    <a  className="a mx-2 " href="https://www.facebook.com/thony1199/" target={'_blank'}>
       <i  className="fab fa-facebook-f fa-2x m-2" aria-hidden="true">
       </i>
     </a>
