@@ -26,6 +26,12 @@ import Preview18 from "../../assets/J18.png";
 import Preview19 from "../../assets/J19.png";
 import Preview20 from "../../assets/J20.png";
 import Preview21 from "../../assets/J21.png";
+import Preview22 from "../../assets/J22.png";
+import Preview23 from "../../assets/J23.png";
+import Preview24 from "../../assets/J24.png";
+import Preview25 from "../../assets/J25.png";
+import Preview26 from "../../assets/J26.png";
+
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -190,6 +196,41 @@ class Portfolio extends React.Component {
           title: "The Legacy Project (Drupal 10)",
           tag: "Front End - Back End-Partial-Development",
           url: "https://legacyprojectchicago.org/",
+        },
+        {
+          id: "22",
+          preview: Preview22,
+          title: "Riesgos del trabajo (Wordpress)",
+          tag: "General maintenance",
+          url: "https://riesgosdeltrabajo.cr/",
+        },
+        {
+          id: "23",
+          preview: Preview23,
+          title: "Permiso Licencia CR (Wordpress)",
+          tag: "General maintenance",
+          url: "https://permisolicencia.cr/",
+        },
+        {
+          id: "24",
+          preview: Preview24,
+          title: "Póliza Estudiantil del INS (Wordpress)",
+          tag: "General maintenance",
+          url: "https://polizaestudiantil.cr/",
+        },
+        {
+          id: "25",
+          preview: Preview25,
+          title: "Póliza de construcción (Wordpress)",
+          tag: "General maintenance",
+          url: "https://polizaconstruccion.cr/",
+        },
+        {
+          id: "26",
+          preview: Preview26,
+          title: "Whitehorse Maritime Academy (Wordpress)",
+          tag: "Make adjustments to the front end and recreate a plugin for a carousel",
+          url: "https://whitehorsemaritime.academy/",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING

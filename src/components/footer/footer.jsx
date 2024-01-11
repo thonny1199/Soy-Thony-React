@@ -11,7 +11,7 @@ const partnerBox = () => (
       <Row>
         <Col xs={12} sm={6} md={6}>
           <div className="footer-box">
-            <p>© 2022 - All Right Reserved</p>
+            <p>© 2020 - 2024 All Right Reserved</p>
           </div>
         </Col>
         <Col xs={12} sm={6} md={6}>
